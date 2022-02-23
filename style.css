@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("background.jfif");
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* center content vertically and horizontal */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(10, 216, 216, 0.3);
+  box-shadow: 0 5px 30px rgb(41, 35, 35);
+}
+
+.btn button {
+  padding: 3px;
+  margin: 30px 0px 40px 30px;
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  font-weight: 550;
+}
+
+.formGroup {
+  display: flex;
+  justify-content: center;
+}
+.formGroup input {
+  border: none;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  font-size: 12px;
+}
+::placeholder {
+  color: white;
+}
+input:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(149, 241, 149);
+  font-size: 17px;
+  font-weight: bold;
+}
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+#checkbox {
+  height: 15px;
+  width: 15px;
+  margin-right: 2%;
+}
+.text {
+  color: whitesmoke;
+  font-size: 13px;
+}
+span {
+  color: white;
+}
+.btn2 {
+  padding: 10px;
+  outline: none;
+  width: 150px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #0afdd1;
+}
+.btn2:hover {
+  background-color: rgb(149, 241, 149);
+}
+.btn button:hover {
+  border-bottom: 2px solid rgb(89, 197, 89);
+}
+
+/* hiding sign up button */
+.login {
+  display: none;
+}
+
+.login {
+  margin-top: 40px;
+}
+.login .checkbox {
+  margin-top: 40px;
+}
